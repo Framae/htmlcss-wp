@@ -1,5 +1,6 @@
 html {
     font-family: 'Heebo', sans-serif;
+font-family: 'Rubik', sans-serif;
 }
 
 * {
@@ -36,11 +37,23 @@ header {
     text-decoration: none;
     padding-right: 10px;
     color: rgb(172, 163, 163);
-    font-weight: bold;
 }
 
-.neori {
-    
+.contenitore {
+    position: relative;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 15px;
+    opacity: 0.3;
 }
 
 .banner {
@@ -48,6 +61,33 @@ header {
     height: 500px;
     margin-bottom: 15px;
     border-radius: 15px;
+}
+
+.contenuto {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+}
+
+.parabanner {
+    color: white;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.sottotitolo {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.leadership {
+    font-size: 40px;
+}
+.sottofake {
+    font-weight: 100;
+    font-size: 18px;
+    color: gray;
 }
 
 .seconda {
