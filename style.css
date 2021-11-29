@@ -12,6 +12,7 @@ body {
 header {
     width: 100%;
     height: 100px;
+    margin-bottom: 100px;
 }
 
 img {
@@ -19,6 +20,16 @@ img {
     border-right: 1px solid lightgray;
     padding-right: 20px;
     margin-bottom: 20px;
+}
+
+.menu li {
+    display: inline;
+    list-style: none;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .neori {
@@ -29,7 +40,7 @@ img {
     background-color: rgb(235, 206, 46);
     width: 100%;
     height: 380px;
-    margin-bottom: 1px;
+    margin-bottom: 15px;
 }
 
 .seconda {
